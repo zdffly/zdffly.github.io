@@ -1,0 +1,55 @@
+body {
+    font-family: Consolas, '微软雅黑';
+    background-color: rgb(44, 44, 44);
+}
+
+.all {
+    width: 860px;
+    margin: 100px auto;
+    padding: 40px;
+    border: 2px snow solid;
+    border-radius: 20px;
+    display: flex;
+}
+
+.one-1 {
+    width: 260px;
+}
+.one-1 a {
+    color: rgb(252, 225, 191);
+}
+
+.one-2 {
+    width: 300px;
+}
+
+.one-3 {
+    width: 300px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-family: Consolas, '新宋体';
+    color: rgb(255, 187, 156);
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    margin-top: 3px;
+}
+
+a {
+    font-size: 1.1rem;
+    display: block;
+    height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover {
+    color: rgb(255, 193, 112);
+}
