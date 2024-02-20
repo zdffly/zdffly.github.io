@@ -265,14 +265,14 @@
       // 计算时间差，得到今天是今年的第几天
       var diffInMilliseconds = today - firstDayOfYear;
       var diffInDays =
-        Math.floor(diffInMilliseconds / (1000 * 60 * 60 * 24)) + 1 - 11 -4;
+        Math.floor(diffInMilliseconds / (1000 * 60 * 60 * 24)) + 1 - 1 - 10;
 
       // console.log("今天是今年的第" + diffInDays + "天");
       // 创建<a>标签
       var link = document.createElement("a");
       link.innerText = "排列三";
       link.href =
-        "https://datachart.500.com/pls/?expect=all&from=23001&to=23" +
+        "https://datachart.500.com/pls/?expect=all&from=24001&to=24" +
         diffInDays;
       link.target = "_blank"; // 在新窗口打开链接
       // 将<a>标签添加到页面中
@@ -285,7 +285,7 @@
       var 福彩 = document.createElement("a");
       福彩.innerText = "福彩3D";
       福彩.href =
-        "https://datachart.500.com/sd/?expect=all&from=2023001&to=2023" +
+        "https://datachart.500.com/sd/?expect=all&from=2024001&to=2024" +
         diffInDays;
       福彩.target = "_blank"; // 在新窗口打开链接
       // document.body.appendChild(福彩);
